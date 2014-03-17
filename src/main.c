@@ -11,6 +11,7 @@
 #define FPS 60
 
 /******************/
+//Struct para o fecho convexo (futuramente)
 struct par_ordenado{
  int pX;
  int pY;
@@ -100,9 +101,6 @@ int fecho_convexo(unsigned char ***matriz, int altura, int largura){
                  printf("%d %d\n", x1, y1);
                  printf("%d %d\n", x2, y2);
                }
-                /* Melhoria que a ser feita: verificar se uma aresta não
-                está contida em uma aresta maior. Mesmo assim, o algoritmo funciona
-                de maneira correta */
               }
             }        
             return 0;
