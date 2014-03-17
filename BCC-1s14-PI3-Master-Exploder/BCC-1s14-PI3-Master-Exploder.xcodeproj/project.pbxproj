@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		286868E518D76A65001EB2B4 /* camera.c in Sources */ = {isa = PBXBuildFile; fileRef = 286868DB18D76A65001EB2B4 /* camera.c */; };
+		286868E618D76A65001EB2B4 /* limiarizacao.c in Sources */ = {isa = PBXBuildFile; fileRef = 286868DE18D76A65001EB2B4 /* limiarizacao.c */; };
+		286868E718D76A65001EB2B4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 286868E018D76A65001EB2B4 /* main.c */; };
+		286868E818D76A65001EB2B4 /* normalizacaorgb.c in Sources */ = {isa = PBXBuildFile; fileRef = 286868E118D76A65001EB2B4 /* normalizacaorgb.c */; };
+		286868E918D76A65001EB2B4 /* otsu.c in Sources */ = {isa = PBXBuildFile; fileRef = 286868E318D76A65001EB2B4 /* otsu.c */; };
 		28C4D1F518C953CC006F7947 /* Allegro-5.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C4D1EA18C953CC006F7947 /* Allegro-5.1.framework */; };
 		28C4D1F618C953CC006F7947 /* AllegroAcodec-5.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C4D1EB18C953CC006F7947 /* AllegroAcodec-5.1.framework */; };
 		28C4D1F718C953CC006F7947 /* AllegroAudio-5.1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C4D1EC18C953CC006F7947 /* AllegroAudio-5.1.framework */; };
@@ -29,10 +34,6 @@
 		28C4D20818C953ED006F7947 /* AllegroMemfile-5.1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28C4D1F218C953CC006F7947 /* AllegroMemfile-5.1.framework */; };
 		28C4D20918C953ED006F7947 /* AllegroPhysfs-5.1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28C4D1F318C953CC006F7947 /* AllegroPhysfs-5.1.framework */; };
 		28C4D20A18C953ED006F7947 /* AllegroPrimitives-5.1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28C4D1F418C953CC006F7947 /* AllegroPrimitives-5.1.framework */; };
-		28C4EC3B18C95503006F7947 /* camera.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C4EC3318C95503006F7947 /* camera.c */; };
-		28C4EC3C18C95503006F7947 /* limiarizacao.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C4EC3618C95503006F7947 /* limiarizacao.c */; };
-		28C4EC3D18C95503006F7947 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C4EC3818C95503006F7947 /* main.c */; };
-		28C4EC3E18C95503006F7947 /* otsu.c in Sources */ = {isa = PBXBuildFile; fileRef = 28C4EC3918C95503006F7947 /* otsu.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +60,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		286868DB18D76A65001EB2B4 /* camera.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = camera.c; path = ../src/camera.c; sourceTree = "<group>"; };
+		286868DC18D76A65001EB2B4 /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = camera.h; path = ../src/camera.h; sourceTree = "<group>"; };
+		286868DD18D76A65001EB2B4 /* LEIAME.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LEIAME.txt; path = ../src/LEIAME.txt; sourceTree = "<group>"; };
+		286868DE18D76A65001EB2B4 /* limiarizacao.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = limiarizacao.c; path = ../src/limiarizacao.c; sourceTree = "<group>"; };
+		286868DF18D76A65001EB2B4 /* limiarizacao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = limiarizacao.h; path = ../src/limiarizacao.h; sourceTree = "<group>"; };
+		286868E018D76A65001EB2B4 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../src/main.c; sourceTree = "<group>"; };
+		286868E118D76A65001EB2B4 /* normalizacaorgb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = normalizacaorgb.c; path = ../src/normalizacaorgb.c; sourceTree = "<group>"; };
+		286868E218D76A65001EB2B4 /* normalizacaorgb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = normalizacaorgb.h; path = ../src/normalizacaorgb.h; sourceTree = "<group>"; };
+		286868E318D76A65001EB2B4 /* otsu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = otsu.c; path = ../src/otsu.c; sourceTree = "<group>"; };
+		286868E418D76A65001EB2B4 /* otsu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = otsu.h; path = ../src/otsu.h; sourceTree = "<group>"; };
 		28C4D1DE18C94F27006F7947 /* BCC-1s14-PI3-Master-Exploder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "BCC-1s14-PI3-Master-Exploder"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C4D1EA18C953CC006F7947 /* Allegro-5.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Allegro-5.1.framework"; path = "/Library/Frameworks/Allegro-5.1.framework"; sourceTree = "<absolute>"; };
 		28C4D1EB18C953CC006F7947 /* AllegroAcodec-5.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AllegroAcodec-5.1.framework"; path = "/Library/Frameworks/AllegroAcodec-5.1.framework"; sourceTree = "<absolute>"; };
@@ -71,13 +82,6 @@
 		28C4D1F218C953CC006F7947 /* AllegroMemfile-5.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AllegroMemfile-5.1.framework"; path = "/Library/Frameworks/AllegroMemfile-5.1.framework"; sourceTree = "<absolute>"; };
 		28C4D1F318C953CC006F7947 /* AllegroPhysfs-5.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AllegroPhysfs-5.1.framework"; path = "/Library/Frameworks/AllegroPhysfs-5.1.framework"; sourceTree = "<absolute>"; };
 		28C4D1F418C953CC006F7947 /* AllegroPrimitives-5.1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AllegroPrimitives-5.1.framework"; path = "/Library/Frameworks/AllegroPrimitives-5.1.framework"; sourceTree = "<absolute>"; };
-		28C4EC3318C95503006F7947 /* camera.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = camera.c; path = ../../src/camera.c; sourceTree = "<group>"; };
-		28C4EC3418C95503006F7947 /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = camera.h; path = ../../src/camera.h; sourceTree = "<group>"; };
-		28C4EC3618C95503006F7947 /* limiarizacao.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = limiarizacao.c; path = ../../src/limiarizacao.c; sourceTree = "<group>"; };
-		28C4EC3718C95503006F7947 /* limiarizacao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = limiarizacao.h; path = ../../src/limiarizacao.h; sourceTree = "<group>"; };
-		28C4EC3818C95503006F7947 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../../src/main.c; sourceTree = "<group>"; };
-		28C4EC3918C95503006F7947 /* otsu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = otsu.c; path = ../../src/otsu.c; sourceTree = "<group>"; };
-		28C4EC3A18C95503006F7947 /* otsu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = otsu.h; path = ../../src/otsu.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,11 +106,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		286868EA18D76A6A001EB2B4 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				286868DB18D76A65001EB2B4 /* camera.c */,
+				286868DC18D76A65001EB2B4 /* camera.h */,
+				286868DD18D76A65001EB2B4 /* LEIAME.txt */,
+				286868DE18D76A65001EB2B4 /* limiarizacao.c */,
+				286868DF18D76A65001EB2B4 /* limiarizacao.h */,
+				286868E018D76A65001EB2B4 /* main.c */,
+				286868E118D76A65001EB2B4 /* normalizacaorgb.c */,
+				286868E218D76A65001EB2B4 /* normalizacaorgb.h */,
+				286868E318D76A65001EB2B4 /* otsu.c */,
+				286868E418D76A65001EB2B4 /* otsu.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
 		28C4D1D518C94F27006F7947 = {
 			isa = PBXGroup;
 			children = (
+				286868EA18D76A6A001EB2B4 /* src */,
 				28C4D20B18C95411006F7947 /* Frameworks */,
-				28C4D1E018C94F27006F7947 /* BCC-1s14-PI3-Master-Exploder */,
 				28C4D1DF18C94F27006F7947 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,20 +138,6 @@
 				28C4D1DE18C94F27006F7947 /* BCC-1s14-PI3-Master-Exploder */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		28C4D1E018C94F27006F7947 /* BCC-1s14-PI3-Master-Exploder */ = {
-			isa = PBXGroup;
-			children = (
-				28C4EC3318C95503006F7947 /* camera.c */,
-				28C4EC3418C95503006F7947 /* camera.h */,
-				28C4EC3618C95503006F7947 /* limiarizacao.c */,
-				28C4EC3718C95503006F7947 /* limiarizacao.h */,
-				28C4EC3818C95503006F7947 /* main.c */,
-				28C4EC3918C95503006F7947 /* otsu.c */,
-				28C4EC3A18C95503006F7947 /* otsu.h */,
-			);
-			path = "BCC-1s14-PI3-Master-Exploder";
 			sourceTree = "<group>";
 		};
 		28C4D20B18C95411006F7947 /* Frameworks */ = {
@@ -203,10 +210,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28C4EC3C18C95503006F7947 /* limiarizacao.c in Sources */,
-				28C4EC3B18C95503006F7947 /* camera.c in Sources */,
-				28C4EC3E18C95503006F7947 /* otsu.c in Sources */,
-				28C4EC3D18C95503006F7947 /* main.c in Sources */,
+				286868E918D76A65001EB2B4 /* otsu.c in Sources */,
+				286868E618D76A65001EB2B4 /* limiarizacao.c in Sources */,
+				286868E818D76A65001EB2B4 /* normalizacaorgb.c in Sources */,
+				286868E518D76A65001EB2B4 /* camera.c in Sources */,
+				286868E718D76A65001EB2B4 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +398,7 @@
 				28C4D1E918C94F27006F7947 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
