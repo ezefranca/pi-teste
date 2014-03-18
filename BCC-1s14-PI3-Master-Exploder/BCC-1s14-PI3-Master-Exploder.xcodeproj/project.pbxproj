@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		280060A918D7B6E300177966 /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = 280060A818D7B6E300177966 /* list.c */; };
 		286868E518D76A65001EB2B4 /* camera.c in Sources */ = {isa = PBXBuildFile; fileRef = 286868DB18D76A65001EB2B4 /* camera.c */; };
 		286868E618D76A65001EB2B4 /* limiarizacao.c in Sources */ = {isa = PBXBuildFile; fileRef = 286868DE18D76A65001EB2B4 /* limiarizacao.c */; };
 		286868E718D76A65001EB2B4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 286868E018D76A65001EB2B4 /* main.c */; };
@@ -60,9 +61,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		280060A818D7B6E300177966 /* list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = list.c; path = ../src/list.c; sourceTree = "<group>"; };
+		280060AA18D7B6F500177966 /* list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
 		286868DB18D76A65001EB2B4 /* camera.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = camera.c; path = ../src/camera.c; sourceTree = "<group>"; };
 		286868DC18D76A65001EB2B4 /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = camera.h; path = ../src/camera.h; sourceTree = "<group>"; };
-		286868DD18D76A65001EB2B4 /* LEIAME.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LEIAME.txt; path = ../src/LEIAME.txt; sourceTree = "<group>"; };
 		286868DE18D76A65001EB2B4 /* limiarizacao.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = limiarizacao.c; path = ../src/limiarizacao.c; sourceTree = "<group>"; };
 		286868DF18D76A65001EB2B4 /* limiarizacao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = limiarizacao.h; path = ../src/limiarizacao.h; sourceTree = "<group>"; };
 		286868E018D76A65001EB2B4 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../src/main.c; sourceTree = "<group>"; };
@@ -111,7 +113,6 @@
 			children = (
 				286868DB18D76A65001EB2B4 /* camera.c */,
 				286868DC18D76A65001EB2B4 /* camera.h */,
-				286868DD18D76A65001EB2B4 /* LEIAME.txt */,
 				286868DE18D76A65001EB2B4 /* limiarizacao.c */,
 				286868DF18D76A65001EB2B4 /* limiarizacao.h */,
 				286868E018D76A65001EB2B4 /* main.c */,
@@ -119,6 +120,8 @@
 				286868E218D76A65001EB2B4 /* normalizacaorgb.h */,
 				286868E318D76A65001EB2B4 /* otsu.c */,
 				286868E418D76A65001EB2B4 /* otsu.h */,
+				280060A818D7B6E300177966 /* list.c */,
+				280060AA18D7B6F500177966 /* list.h */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				286868E918D76A65001EB2B4 /* otsu.c in Sources */,
 				286868E618D76A65001EB2B4 /* limiarizacao.c in Sources */,
 				286868E818D76A65001EB2B4 /* normalizacaorgb.c in Sources */,
+				280060A918D7B6E300177966 /* list.c in Sources */,
 				286868E518D76A65001EB2B4 /* camera.c in Sources */,
 				286868E718D76A65001EB2B4 /* main.c in Sources */,
 			);
